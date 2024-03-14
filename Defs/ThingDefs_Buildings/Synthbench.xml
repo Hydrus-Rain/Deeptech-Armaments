@@ -5,7 +5,7 @@
 		<description>A workbench equipped with advanced tools to produce technology.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
-			<texPath>Things/Building/Synthbench/Synthbench</texPath>
+			<texPath>Things/Building/Synthbench</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<damageData>
