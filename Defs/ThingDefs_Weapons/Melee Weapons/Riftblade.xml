@@ -2,7 +2,7 @@
 <Defs>
 	<!--Sword-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>DTC_Riftblade</defName>
+		<defName>Deeptech_Riftblade</defName>
 		<label>MK28 "Riftblade"</label>
 		<description>a single edged Rift sword,lighter and faster but hits weaker than the broadsword</description>
 		<graphicData>
@@ -10,6 +10,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2.1, 2.1)</drawSize>
 		</graphicData>
+		<uiIconScale>2.0</uiIconScale>
 		<techLevel>Ultra</techLevel>
 		<statBases>
 			<WorkToMake>9800</WorkToMake>
