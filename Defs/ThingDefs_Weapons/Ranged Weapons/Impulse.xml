@@ -40,7 +40,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>DTC_Bullet_AssaultRifleEnergy</defaultProjectile>
+				<defaultProjectile>DTC_Bullet_EnergyCarbine</defaultProjectile>
 				<warmupTime>0.9</warmupTime>
 				<range>22.9</range>
 				<burstShotCount>3</burstShotCount>
@@ -71,10 +71,10 @@
 		</tools>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
-		<defName>DTC_Bullet_AssaultRifleEnergy</defName>
-		<label>deeptech assault rifle blast</label>
+		<defName>DTC_Bullet_EnergyCarbine</defName>
+		<label>deeptech Energy carbine blast</label>
 		<graphicData>
-			<texPath>Things/Weapons/Ranged/Deeptech_EnergyBullet</texPath>
+			<texPath>Things/Weapons/Projectiles/BulletRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
