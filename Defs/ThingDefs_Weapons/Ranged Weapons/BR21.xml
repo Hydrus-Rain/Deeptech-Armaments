@@ -2,12 +2,13 @@
 <Defs>
 	<!--Battle Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>DTC_Gun_BattleRifle</defName>
-		<label>deeptech battle rifle(placeholder)</label>
+		<defName>Deeptech_BattleRifle</defName>
+		<label>BR21"Argos"</label>
 		<description>A Battle Rifle that came to be due to increasing need for adaptable high caliber solutions. Usually used by infantry or dedicated marksmen .</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Battlerifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.9,1.9)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -20,7 +21,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>40000</WorkToMake>
+			<WorkToMake>7500</WorkToMake>
 			<Mass>3.5</Mass>
 			<AccuracyTouch>0.60</AccuracyTouch>
 			<AccuracyShort>0.68</AccuracyShort>
