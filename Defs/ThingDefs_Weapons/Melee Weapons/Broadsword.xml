@@ -2,16 +2,17 @@
 <Defs>
 	<!--Sword-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>DTC_MeleeWeapon_Broadsword</defName>
-		<label>deeptech sword(placeholder)</label>
-		<description>An energy bladed Broadsword</description>
+		<defName>Deeptech_Broadsword</defName>
+		<label>Mk27 "Greatsword"</label>
+		<description>A Large energy bladed broadsword</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Broadsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.8, 2.8)</drawSize>
 		</graphicData>
 		<techLevel>Ultra</techLevel>
 		<statBases>
-			<WorkToMake>18000</WorkToMake>
+			<WorkToMake>9800</WorkToMake>
 			<Mass>2</Mass>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
@@ -37,7 +38,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>53</power>
+				<power>93</power>
 				<cooldownTime>2.6</cooldownTime>
 			</li>
 		</tools>
