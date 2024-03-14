@@ -3,11 +3,12 @@
 	<!-- Deeptech Pistol -->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>DTC_SEC_Pistol</defName>
-		<label> Security Pistol</label>
+		<label> Personal Security Pistol"PSEC"</label>
 		<description>Standard Issue Pistol For Sec. Corps, effective, reliable, and easier to maintain than other firearms.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.9,1.9)</drawSize>
 		</graphicData>
 		<uiIconScale>1.5</uiIconScale>
 		<soundInteract>Interact_Autopistol</soundInteract>
@@ -21,7 +22,7 @@
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>5000</WorkToMake>
+			<WorkToMake>3500</WorkToMake>
 			<Mass>0.120</Mass>
 			<AccuracyTouch>0.80</AccuracyTouch>
 			<AccuracyShort>0.70</AccuracyShort>
