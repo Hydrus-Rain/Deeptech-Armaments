@@ -2,12 +2,13 @@
 <Defs>
 	<!--Assault Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>DTI_EnergyCarbine</defName>
-		<label>Energy Carbine</label>
+		<defName>Deeptech_EnergyCarbine</defName>
+		<label>Energy Carbine "Impulse"</label>
 		<description>Energy Carbine. Used by Infantry in clearing out infested areas, biohazards, or mech clusters, mainly for their reliability and self recharging ammo packs.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Carbine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.1, 2.1)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
 		<recipeMaker>
