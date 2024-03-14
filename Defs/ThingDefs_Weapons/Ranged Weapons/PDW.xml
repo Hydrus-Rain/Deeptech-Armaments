@@ -4,10 +4,11 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>DTC_PDW</defName>
 		<label>Personal Defense Weapon</label>
-		<description>a small cheap economic weapon thats easy to mass produce, yet being reliablr and light enough to be one-handed</description>
+		<description>a small cheap economic weapon thats easy to mass produce, yet being reliable and light enough to be one-handed</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/PDW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.9,1.9)</drawSize>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<soundInteract>Interact_SMG</soundInteract>
