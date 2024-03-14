@@ -3,11 +3,11 @@
 <!--Knife-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>DTC_MeleeWeapon_Knife</defName>
-		<label>deeptech knife(placeholder)</label>
+		<label>Rift Knife</label>
 		<techLevel>Ultra</techLevel>
-		<description>Standard Issue Knife. Reliable, Cheap, And Ease of Maintenance. Used by Majority of the Institute Sec. Corps and Majority of the RnD Researchers.</description>
+		<description>Standard Issue Knife. Reliable, Cheap, And Ease of Maintenance despite having a focused energy blade. Used by Majority of the Institute Sec. Corps</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Deeptech_Knife</texPath>
+			<texPath>Things/Weapons/Melee/Knife</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
@@ -30,7 +30,7 @@
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>15</power>
+				<power>35</power>
 				<cooldownTime>1.5</cooldownTime>
 			</li>
 			<li>
@@ -38,7 +38,7 @@
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>13</power>
+				<power>41</power>
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
