@@ -2,9 +2,9 @@
 <Defs>
   <!--Sniper Rifle-->
   <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Deeptech_SniperRifle</defName>
-    <label>"H.C.M" Sniper Rifle </label>
-    <description>A High Caliber Sniper Rifle. Produced to Counter Light to Medium armor, but not as effective against heavy armor. Often used for Surgical Removal of Key Targets.</description>
+    <defName>Deeptech_HCMRifle</defName>
+    <label>"H.C.M" Rifle </label>
+    <description>A High Caliber Marksman Rifle. Produced to Counter Light to Medium armor, but not as effective against heavy armor. Often used for Surgical Removal of Key Targets.</description>
     <graphicData>
       <drawSize>(2.1,2.1)</drawSize>
       <texPath>Things/Weapons/Ranged/Sniper</texPath>
