@@ -3,7 +3,7 @@
   <!--Sniper Rifle-->
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>DTC_SniperRifle</defName>
-    <label>H.C.M Rifle </label>
+    <label>"H.C.M" Sniper Rifle </label>
     <description>A High Caliber Sniper Rifle. Produced to Counter Light to Medium armor, but not as effective against heavy armor. Often used for Surgical Removal of Key Targets.</description>
     <graphicData>
       <drawSize>(2.1,2.1)</drawSize>
