@@ -10,19 +10,20 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>50</damageAmountBase>
+			<damageAmountBase>65</damageAmountBase>
 			<stoppingPower>20</stoppingPower>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
 
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>DTC_Revolver</defName>
+		<defName>Deeptech_Revolver</defName>
 		<label>"Silencer" Revolver</label>
 		<description> a small, relatively heavy revolver with serious AP potential, comes with a built in microreactor for sustained combat </description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Revolver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5, 1.5)</drawSize>
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<soundInteract>Interact_Revolver</soundInteract>
@@ -56,7 +57,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>DTC_Bullet_Revolver</defaultProjectile>
-				<warmupTime>0.8</warmupTime>
+				<warmupTime>1.5</warmupTime>
 				<range>25.9</range>
 				<soundCast>Shot_Revolver</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
