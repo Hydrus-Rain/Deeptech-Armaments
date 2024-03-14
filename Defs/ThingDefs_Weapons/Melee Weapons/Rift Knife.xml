@@ -2,7 +2,7 @@
 <Defs>
 <!--Knife-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
-		<defName>DTC_MeleeWeapon_Knife</defName>
+		<defName>Deeptech_Knife</defName>
 		<label>Mk31 "Rift Knife"</label>
 		<techLevel>Ultra</techLevel>
 		<description>A Knife thats part of the Rift Weapon series. Reliable, And Easy to Maintenance despite having a focused energy blade.</description>
