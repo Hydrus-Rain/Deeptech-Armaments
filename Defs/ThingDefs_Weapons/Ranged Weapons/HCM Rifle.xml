@@ -10,7 +10,7 @@
       <texPath>Things/Weapons/Ranged/Sniper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <uiIconScale>(2.0,2.0)</uiIconScale>
+    <uiIconScale>2.0</uiIconScale>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers Inherit="False">
