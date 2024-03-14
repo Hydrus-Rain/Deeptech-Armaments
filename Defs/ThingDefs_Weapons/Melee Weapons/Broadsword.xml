@@ -10,6 +10,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2.8, 2.8)</drawSize>
 		</graphicData>
+		<uiIconScale>2.0</uiIconScale>
 		<techLevel>Ultra</techLevel>
 		<statBases>
 			<WorkToMake>9800</WorkToMake>
