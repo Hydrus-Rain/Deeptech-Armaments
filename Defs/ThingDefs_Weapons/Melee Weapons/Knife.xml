@@ -3,12 +3,13 @@
 <!--Knife-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>DTC_MeleeWeapon_Knife</defName>
-		<label>Rift Knife</label>
+		<label>Mk31 "Rift Knife"</label>
 		<techLevel>Ultra</techLevel>
-		<description>Standard Issue Knife. Reliable, Cheap, And Ease of Maintenance despite having a focused energy blade. Used by Majority of the Institute Sec. Corps</description>
+		<description>A Knife thats part of the Rift Weapon series. Reliable, And Easy to Maintenance despite having a focused energy blade.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Knife</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5, 1.5)</drawSize>
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
 		<statBases>
