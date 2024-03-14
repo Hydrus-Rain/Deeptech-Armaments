@@ -8,9 +8,9 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.9,1.9)</drawSize>
+			<drawSize>(1.2,1.2)</drawSize>
 		</graphicData>
-		<uiIconScale>1.5</uiIconScale>
+		<uiIconScale>2.0</uiIconScale>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
