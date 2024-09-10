@@ -74,7 +74,7 @@
 		<defName>DTC_Bullet_BattleRifle</defName>
 		<label>deeptech battle rifle bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<texPath>Things/Projectile/Bullet_Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
