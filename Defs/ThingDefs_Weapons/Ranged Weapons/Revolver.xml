@@ -1,21 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<!-- Deeptech Revolver -->
-	<ThingDef ParentName="BaseBullet">
-		<defName>DTC_Bullet_Revolver</defName>
-		<label>deeptech revolver bullet</label>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>65</damageAmountBase>
-			<stoppingPower>20</stoppingPower>
-			<speed>55</speed>
-		</projectile>
-	</ThingDef>
-
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_Revolver</defName>
 		<label>"Silencer" Revolver</label>
@@ -84,4 +69,21 @@
 			</li>
 		</tools>
 	</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+		<defName>DTC_Bullet_Revolver</defName>
+		<label>deeptech revolver bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/BulletPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>65</damageAmountBase>
+			<stoppingPower>20</stoppingPower>
+			<speed>55</speed>
+		</projectile>
+	</ThingDef>
+
+	
 </Defs>
