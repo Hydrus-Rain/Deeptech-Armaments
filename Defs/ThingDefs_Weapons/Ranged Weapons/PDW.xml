@@ -74,7 +74,7 @@
 		<defName>DTC_Bullet_PDW</defName>
 		<label>deeptech PDW bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<texPath>Things/Projectile/Bullet_Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
