@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+o<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
 <packageId>Hydrus.DeeptechArmaments</packageId>
@@ -15,6 +15,6 @@
     </supportedVersions>
 	
 
-<description>a themed weapon mod</description>
+<description>a themed weapon mod that was originally part of the faction mod, freed from its indefinite dev hell</description>
 	
 </ModMetaData>
