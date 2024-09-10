@@ -71,7 +71,7 @@
     <defName>DTC_Bullet_SniperRifle</defName>
     <label>deeptech sniper rifle bullet</label>
     <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <texPath>Things/Projectile/Bullet_Large</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
