@@ -1,2 +1,3 @@
 # Deeptech-Armaments
-My themed weapon mod
+A themed weapon mod, Lots of Blue
+will update whenever
