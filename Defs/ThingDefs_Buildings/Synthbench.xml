@@ -2,7 +2,7 @@
 	<ThingDef ParentName="BenchBase">
 		<defName>synthbench</defName>
 		<label>Synthesis Bench</label>
-		<description>A workbench equipped with advanced tools to produce technology.</description>
+		<description>A workbench equipped with advanced Manufacturing tools.Also comes with its own power source.</description>
 		<thingClass>Building_WorkTable</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Synthbench</texPath>
@@ -42,7 +42,7 @@
 			</li>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>225</basePowerConsumption>
+				<basePowerConsumption>0</basePowerConsumption>
 				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable" />
@@ -62,7 +62,7 @@
 		<designationCategory>Production</designationCategory>
 		<surfaceType>Item</surfaceType>
 		<designationHotKey>Misc12</designationHotKey>
-		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 		</placeWorkers>
