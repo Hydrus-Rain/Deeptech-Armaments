@@ -8,7 +8,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Sword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2.1, 2.1)</drawSize>
+			<drawSize>(1.8, 1.8)</drawSize>
 		</graphicData>
 		<uiIconScale>2.0</uiIconScale>
 		<techLevel>Ultra</techLevel>
