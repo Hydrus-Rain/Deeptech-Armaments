@@ -3,7 +3,7 @@
 	<!--Battle Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_BattleRifle</defName>
-		<label>BR21"Argos"</label>
+		<label>BR21"Hygos"</label>
 		<description>A Battle Rifle that came to be due to increasing need for adaptable high caliber solutions. Usually used by infantry or dedicated marksmen .</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Battlerifle</texPath>
@@ -74,7 +74,7 @@
 		<defName>DTC_Bullet_BattleRifle</defName>
 		<label>deeptech battle rifle bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/BulletRifle</texPath>
+			<texPath>Things/Weapons/Projectile/BulletRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
