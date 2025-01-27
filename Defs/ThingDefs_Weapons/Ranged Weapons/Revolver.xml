@@ -74,7 +74,7 @@
 		<defName>DTC_Bullet_Revolver</defName>
 		<label>deeptech revolver bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/BulletPistol</texPath>
+			<texPath>Things/Weapon/Projectile/BulletPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
