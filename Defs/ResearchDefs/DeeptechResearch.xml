@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <tab>Deeptech</tab>
+    <defName>Research_NanoFabrication</defName>
+    <label>Nanocomponent Fabrication</label>
+    <description>Begin Research on making smaller components, allowing for more compact and efficent technological designs</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Microelectronics</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <discoveredLetterTitle>NanoComponents</discoveredLetterTitle>
+    <discoveredLetterText>You've unlocked the ability to craft Nanocomponents\n\n Further research will yield better outcomes</discoveredLetterText>
+    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+  </ResearchProjectDef>
+
+<ResearchProjectDef>
+    <tab>Deeptech</tab>
+    <defName>Research_Microresearch</defName>
+    <label>Microresearch</label>
+    <description>Begin Research on the molecular structures of available materials, for allowing for stronger, yet lighter designs</description>
+    <baseCost7500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Microelectronics</li>
+    </prerequisites>
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <discoveredLetterTitle>Micromaterial Research</discoveredLetterTitle>
+    <discoveredLetterText>You've unlocked the ability to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
+    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+  </ResearchProjectDef>
+  
+</Defs>
