@@ -14,7 +14,7 @@
 		<soundInteract>Interact_SMG</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
-				<li>synthbench</li>
+			<li>synthbench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
@@ -27,7 +27,7 @@
 			<AccuracyTouch>0.90</AccuracyTouch>
 			<AccuracyShort>0.85</AccuracyShort>
 			<AccuracyMedium>0.79</AccuracyMedium>
-			<AccuracyLong>0.52</AccuracyLong>
+			<AccuracyLong>0.62</AccuracyLong>
 			<RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
