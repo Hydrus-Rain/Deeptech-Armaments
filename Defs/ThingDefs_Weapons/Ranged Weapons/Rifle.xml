@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--Battle Rifle-->
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Deeptech_BattleRifle</defName>
+		<label>IR06"Metris"</label>
+		<description>An Energy Rifle made for sustainable firepower. Usually used by infantry or dedicated marksmen.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/Rifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.9,1.9)</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>7500</WorkToMake>
+			<Mass>3.5</Mass>
+			<AccuracyTouch>0.75</AccuracyTouch>
+			<AccuracyShort>0.69</AccuracyShort>
+			<AccuracyMedium>0.89</AccuracyMedium>
+			<AccuracyLong>0.85</AccuracyLong>
+			<RangedWeapon_Cooldown>0.27</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Plasteel>25</Plasteel>
+			<Uranium>5</Uranium>
+			<Steel>450</Steel>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DTC_Bullet_BattleRifle</defaultProjectile>
+				<warmupTime>1.05</warmupTime>
+				<range>30.9</range>
+				<burstShotCount>1</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>Shot_AssaultRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>DTC_Bullet_BattleRifle</defName>
+		<label>deeptech battle rifle bullet</label>
+		<graphicData>
+			<texPath>Things/Weapons/Projectile/BulletRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<speed>70</speed>
+		</projectile>
+	</ThingDef>
+</Defs>
