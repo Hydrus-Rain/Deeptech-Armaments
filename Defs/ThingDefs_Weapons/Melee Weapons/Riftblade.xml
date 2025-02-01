@@ -51,6 +51,9 @@
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<recipeMaker>
+			<recipeUsers Inherit="False">
+        		<li>synthbench</li>
+      			</recipeUsers>
 			<defaultIngredientFilter IsNull="True"/>
 			<unfinishedThingDef>DTC_UnfinishedWeaponNonStuff</unfinishedThingDef>
 			<soundWorking>Recipe_Machining</soundWorking>
