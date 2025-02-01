@@ -13,7 +13,6 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
-			<li>FabricationBench</li>
         		<li>synthbench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
