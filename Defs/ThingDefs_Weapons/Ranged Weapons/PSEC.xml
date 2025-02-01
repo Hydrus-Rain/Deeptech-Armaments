@@ -2,7 +2,7 @@
 <Defs>
 	<!-- Deeptech Pistol -->
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>DTC_SEC_Pistol</defName>
+		<defName>Deeptech_SEC_Pistol</defName>
 		<label> Personal Security Pistol"PSEC"</label>
 		<description>Standard Issue Pistol For Sec. Corps, effective, reliable, and easier to maintain than other firearms.</description>
 		<graphicData>
