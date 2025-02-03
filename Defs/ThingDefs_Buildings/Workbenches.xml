@@ -7,7 +7,7 @@
       <texPath>Things/Synthbench/Synthbench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(3.5,1.5)</drawSize>
+	<drawSize>(3.5,1.5)</drawSize>
       <shadowData>
         <volume>(2.9, 0.3, 0.5)</volume>
         <offset>(0, 0, 0)</offset>
