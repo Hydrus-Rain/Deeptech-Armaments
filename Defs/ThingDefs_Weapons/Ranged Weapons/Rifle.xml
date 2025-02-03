@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!--Battle Rifle-->
+	<!--Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_Rifle</defName>
 		<label>IR06"Metris"</label>
