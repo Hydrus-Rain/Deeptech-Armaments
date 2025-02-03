@@ -3,8 +3,8 @@
 	<!--Assault Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_EnergyCarbine</defName>
-		<label>Energy Carbine "Impulse"</label>
-		<description>Energy Carbine. Used by Infantry in clearing out infested areas, biohazards, or mech clusters, mainly for their reliability and self recharging ammo packs.</description>
+		<label>"Impulse"Energy Carbine</label>
+		<description>Energy Carbine. Used by Infantry in clearing out infested areas, biohazards, or mech clusters, mainly for their reliability and self recharging functions.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Carbine</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -12,12 +12,9 @@
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
-				<li>synthbench</li>
-			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>8</Crafting>
+				<Crafting>10</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
@@ -31,7 +28,7 @@
 		</statBases>
 		<costList>
 			<Plasteel>75</Plasteel>
-			<Uranium>1</Uranium>
+			<Uranium>5</Uranium>
 			<Steel>75</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
