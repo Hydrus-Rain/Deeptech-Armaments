@@ -4,7 +4,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_Revolver</defName>
 		<label>"Proton" Revolver</label>
-		<description> a small, relatively heavy revolver with serious AP potential, comes with a built in microreactor for sustained combat</description>
+		<description> a small, relatively heavy revolver with serious AP potential, comes with a built in ballistic calculator</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Revolver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
