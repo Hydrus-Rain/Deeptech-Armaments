@@ -2,7 +2,7 @@
 <Defs>
 	<!--Battle Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
-		<defName>Deeptech_BattleRifle</defName>
+		<defName>Deeptech_Rifle</defName>
 		<label>IR06"Metris"</label>
 		<description>An Energy Rifle made for sustainable firepower. Usually used by infantry or dedicated marksmen.</description>
 		<graphicData>
@@ -74,7 +74,7 @@
 		<defName>DTC_Bullet_BattleRifle</defName>
 		<label>deeptech battle rifle bullet</label>
 		<graphicData>
-			<texPath>Things/Weapons/Projectile/BulletRifle</texPath>
+			<texPath>Things/Weapons/Projectiles/BulletRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
