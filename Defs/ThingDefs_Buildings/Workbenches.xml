@@ -1,5 +1,5 @@
 <Defs>
-	defName>synthbench</defName>
+ <defName>synthbench</defName>
 		<label>Synthesis Bench</label>
     <description>An Advanced workbench for creating technology.</description>
     <thingClass>Building_WorkTable</thingClass>
