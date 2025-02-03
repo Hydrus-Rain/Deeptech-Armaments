@@ -18,7 +18,7 @@
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>6</Crafting>
+				<Crafting>7</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
@@ -74,12 +74,12 @@
 		<defName>DTC_Bullet_PDW</defName>
 		<label>deeptech PDW bullet</label>
 		<graphicData>
-			<texPath>Things/Weapon/Projectile/BulletPistol</texPath>
+			<texPath>Things/Weapons/Projectiles/BulletPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>10</damageAmountBase>
+			<damageAmountBase>16</damageAmountBase>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
