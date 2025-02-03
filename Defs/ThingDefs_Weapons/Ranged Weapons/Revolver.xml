@@ -3,7 +3,7 @@
 	<!-- Deeptech Revolver -->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_Revolver</defName>
-		<label>"Silencer" Revolver</label>
+		<label>"Proton" Revolver</label>
 		<description> a small, relatively heavy revolver with serious AP potential, comes with a built in microreactor for sustained combat</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Revolver</texPath>
@@ -71,10 +71,10 @@
 	</ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-		<defName>DTC_Bullet_Revolver</defName>
+		<defName>DTC_Revolver_round</defName>
 		<label>deeptech revolver bullet</label>
 		<graphicData>
-			<texPath>Things/Weapon/Projectile/BulletPistol</texPath>
+			<texPath>Things/Weapons/Projectiles/BulletPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
