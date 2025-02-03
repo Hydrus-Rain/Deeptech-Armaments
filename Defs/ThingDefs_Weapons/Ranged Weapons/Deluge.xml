@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" ?>
+u<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   <!--Siegecannon-->
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Deeptech_Siegecannon</defName>
-    <label>"Torrent" Siegecannon </label>
-    <description>A High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
+    <label>"Deluge" Siegecannon </label>
+    <description>High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
     <graphicData>
       <drawSize>(2.1,2.1)</drawSize>
       <texPath>Things/Weapons/Ranged/SiegeCannon</texPath>
@@ -33,6 +33,7 @@
       <Plasteel>250</Plasteel>
       <Steel>425</Steel>
       <ComponentIndustrial>20</ComponentIndustrial>
+      <ComponentSpacer>5</ComponentSpacer>
     </costList>
     <verbs>
       <li>
