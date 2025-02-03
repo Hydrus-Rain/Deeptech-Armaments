@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!--Siegecannon-->
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Deeptech_Siegecannon</defName>
+    <label>"Torrent" Siegecannon </label>
+    <description>A High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
+    <graphicData>
+      <drawSize>(2.1,2.1)</drawSize>
+      <texPath>Things/Weapons/Ranged/SiegeCannon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>2.0</uiIconScale>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+        <li>synthbench</li>
+      </recipeUsers>
+      <researchPrerequisite>Fabrication</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.60</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.86</AccuracyMedium>
+      <AccuracyLong>0.89</AccuracyLong>
+      <RangedWeapon_Cooldown>5.3</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Plasteel>250</Plasteel>
+      <Steel>425</Steel>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DTC_Siegecannon_Rounds</defaultProjectile>
+        <warmupTime>10.5</warmupTime>
+        <range>55</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>bayonet</label>
+        <capacities>
+          <li>Sharp</li>
+        </capacities>
+        <power>29</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Sharp</li>
+          <li>Poke</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>DTC_Siegecannon_Rounds</defName>
+    <label>Siegecannon Rounds</label>
+    <graphicData>
+      <texPath>Things/Weapons/Projectile/BulletLarge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>65</damageAmountBase>
+      <stoppingPower>2.5</stoppingPower>
+      <speed>100</speed>
+    </projectile>
+  </ThingDef>
+
+</Defs>
