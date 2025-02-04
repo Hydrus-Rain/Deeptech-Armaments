@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <ResearchProjectDef>
     <tab>Deeptech</tab>
     <defName>Research_NanoFabrication</defName>
@@ -9,7 +8,7 @@
     <baseCost>5000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>Microelectronics</li>
+    <li>Microelectronics</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
@@ -27,7 +26,7 @@
     <baseCost7500</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>
-      <li>Microelectronics</li>
+    <li>Microelectronics</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>2</researchViewY>
