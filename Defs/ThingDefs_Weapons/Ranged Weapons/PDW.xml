@@ -39,7 +39,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>DTC_Bullet_PDW</defaultProjectile>
+				<defaultProjectile>Deeptech_PDW_rounds</defaultProjectile>
 				<warmupTime>0.5</warmupTime>
 				<range>19.9</range>
 				<burstShotCount>5</burstShotCount>
@@ -71,7 +71,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BaseBullet">
-		<defName>DTC_Bullet_PDW</defName>
+		<defName>Deeptech_PDW_rounds</defName>
 		<label>deeptech PDW bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/Projectiles/BulletPistol</texPath>
