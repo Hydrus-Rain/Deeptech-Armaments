@@ -12,7 +12,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
+			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
@@ -71,7 +71,7 @@
 		</tools>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
-		<defName>DTC_Bullet_BattleRifle</defName>
+		<defName>Deeptech_BR21_Bullet</defName>
 		<label>deeptech battle rifle bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/Projectiles/BulletRifle</texPath>
