@@ -8,7 +8,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/PDW</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.0,1.0)</drawSize>
+			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<uiIconScale>2.0</uiIconScale>
 		<soundInteract>Interact_SMG</soundInteract>
