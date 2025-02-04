@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
-		<defName>DTC_MeleeWeapon_Fist</defName>
-		<label>deeptech Fist(placeholder)</label>
+		<defName>Deeptech_Powerfist</defName>
+		<label>Deeptech Powerfist</label>
 		<description>Used By Heavy Corps to Breach Ship Hulls, Asteroids, and Smash Heavy Armor or Chitinous Carapaces</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PowerFist</texPath>
@@ -22,7 +22,7 @@
 			<defaultIngredientFilter IsNull="True"/>
 			<unfinishedThingDef>DTC_UnfinishedWeaponNonStuff</unfinishedThingDef>
 			<soundWorking>Recipe_Machining</soundWorking>
-			<recipeUsers Inherit="False">
+			<recipeUsers>
 				<li>FabricationBench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
@@ -32,10 +32,10 @@
 		</recipeMaker>
 		<costList>
 			<Plasteel>130</Plasteel>
-			<Uranium>10</Uranium>
-			<Steel>100</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
-			<ComponentSpacer>1</ComponentSpacer>
+			<Uranium>15</Uranium>
+			<Steel>200</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<tools>
 			<li>
@@ -44,7 +44,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>17.7</power>
+				<power>50.7</power>
 				<cooldownTime>1.75</cooldownTime>
 			</li>
 		</tools>
