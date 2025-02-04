@@ -3,12 +3,12 @@
 	<!--Rifle-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>Deeptech_Rifle</defName>
-		<label>IR06"Metris"</label>
+		<label>IonRifle-06"Metris"</label>
 		<description>An Energy Rifle made for sustainable firepower. Usually used by infantry or dedicated marksmen.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.9,1.9)</drawSize>
+			<drawSize>(1.5,1.5)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -71,15 +71,15 @@
 		</tools>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
-		<defName>DTC_Bullet_BattleRifle</defName>
-		<label>deeptech battle rifle bullet</label>
+		<defName>Deeptech_IR6_Bullet</defName>
+		<label>deeptech Ion Bullet</label>
 		<graphicData>
 			<texPath>Things/Weapons/Projectiles/BulletRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>15</damageAmountBase>
+			<damageAmountBase>35</damageAmountBase>
 			<speed>70</speed>
 		</projectile>
 	</ThingDef>
