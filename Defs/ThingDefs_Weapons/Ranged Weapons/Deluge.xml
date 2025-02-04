@@ -6,11 +6,11 @@
     <label>"Deluge"Siegecannon</label>
     <description>A High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
     <graphicData>
-      <drawSize>(2.0,2.0)</drawSize>
+      <drawSize>(1.5,1.5)</drawSize>
       <texPath>Things/Weapons/Ranged/SiegeCannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <uiIconScale>2.0</uiIconScale>
+    <uiIconScale>1.5</uiIconScale>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
