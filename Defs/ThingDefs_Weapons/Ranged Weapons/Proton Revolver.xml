@@ -22,14 +22,13 @@
 			<RangedWeapon_Cooldown>5.0</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Plasteel>128</Plasteel>
+			<Plasteel>18</Plasteel>
 			<Uranium>6</Uranium>
 			<Steel>75</Steel>
 			<ComponentIndustrial>7</ComponentIndustrial>
-			<ComponentSpacer>5</ComponentSpacer>
 		</costList>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
+			<recipeUsers>
 				<li>synthbench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
@@ -81,6 +80,7 @@
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>65</damageAmountBase>
 			<stoppingPower>20</stoppingPower>
+			<armorPenetrationBase>1</armorPenetrationBase>
 			<speed>55</speed>
 		</projectile>
 	</ThingDef>
