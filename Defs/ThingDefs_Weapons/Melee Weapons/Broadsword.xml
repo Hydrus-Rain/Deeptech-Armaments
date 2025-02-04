@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--Sword-->
+	<!--BroadSword-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>Deeptech_Broadsword</defName>
-		<label>Mk27 "Greatsword"</label>
-		<description>A Large energy bladed broadsword</description>
+		<label>Mk27 "Broadsword"</label>
+		<description>A Large broadsword with a monomolecular edge</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Broadsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(2.8, 2.8)</drawSize>
+			<drawSize>(2.0, 2.0)</drawSize>
 		</graphicData>
 		<uiIconScale>2.0</uiIconScale>
 		<techLevel>Ultra</techLevel>
