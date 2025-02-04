@@ -41,7 +41,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>DTC_Bullet_Revolver</defaultProjectile>
+				<defaultProjectile>DTC_Revolver_round</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
 				<range>25.9</range>
 				<soundCast>Shot_Revolver</soundCast>
