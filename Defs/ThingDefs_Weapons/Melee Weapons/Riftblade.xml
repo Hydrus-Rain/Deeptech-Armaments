@@ -6,7 +6,7 @@
 		<label>MK28 "Riftblade"</label>
 		<description>a single edged Rift sword,lighter and faster but hits weaker than the broadsword</description>
 		<graphicData>
-			<texPath>Things/Weapons/Melee/Sword</texPath>
+			<texPath>Things/Weapons/Melee/RiftSword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1.8, 1.8)</drawSize>
 		</graphicData>
