@@ -3,8 +3,8 @@
   <!--Siegecannon-->
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Deeptech_Siegecannon</defName>
-    <label>"Deluge" Siegecannon</label>
-    <description>High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
+    <label>"Deluge"Siegecannon</label>
+    <description>A High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
     <graphicData>
       <drawSize>(2.0,2.0)</drawSize>
       <texPath>Things/Weapons/Ranged/SiegeCannon</texPath>
