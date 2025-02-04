@@ -12,7 +12,7 @@
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
+			<recipeUsers>
         		<li>synthbench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
@@ -40,7 +40,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>DTC_Bullet_BattleRifle</defaultProjectile>
+				<defaultProjectile>Deeptech_IR6_Bullet</defaultProjectile>
 				<warmupTime>1.05</warmupTime>
 				<range>30.9</range>
 				<burstShotCount>1</burstShotCount>
