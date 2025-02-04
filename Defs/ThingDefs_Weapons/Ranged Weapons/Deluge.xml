@@ -3,16 +3,17 @@ u<?xml version="1.0" encoding="utf-8" ?>
   <!--Siegecannon-->
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Deeptech_Siegecannon</defName>
-    <label>"Deluge" Siegecannon </label>
+    <label>"Deluge" Siegecannon</label>
     <description>High Caliber Multibarreled minigun. Produced to mow down hordes of Light to Medium armor, and to supress against heavy armor. Often used by extermination squads.</description>
     <graphicData>
-      <drawSize>(2.1,2.1)</drawSize>
+      <drawSize>(2.0,2.0)</drawSize>
       <texPath>Things/Weapons/Ranged/SiegeCannon</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <uiIconScale>2.0</uiIconScale>
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
+      <recipeUsers>
         <li>synthbench</li>
       </recipeUsers>
       <researchPrerequisite>Fabrication</researchPrerequisite>
@@ -39,7 +40,7 @@ u<?xml version="1.0" encoding="utf-8" ?>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DTC_Siegecannon_Rounds</defaultProjectile>
+        <defaultProjectile>Deeptech_Siegecannon_Rounds</defaultProjectile>
         <warmupTime>10.5</warmupTime>
         <range>55</range>
         <soundCast>Shot_SniperRifle</soundCast>
@@ -68,16 +69,16 @@ u<?xml version="1.0" encoding="utf-8" ?>
     </tools>
   </ThingDef>
   <ThingDef ParentName="BaseBullet">
-    <defName>DTC_Siegecannon_Rounds</defName>
+    <defName>Deeptech_Siegecannon_Rounds</defName>
     <label>Siegecannon Rounds</label>
     <graphicData>
-      <texPath>Things/Weapons/Projectile/BulletLarge</texPath>
+      <texPath>Things/Weapons/Projectiles/BulletLarge</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>65</damageAmountBase>
-      <stoppingPower>2.5</stoppingPower>
+      <damageAmountBase>75</damageAmountBase>
+      <stoppingPower>5.5</stoppingPower>
       <speed>100</speed>
     </projectile>
   </ThingDef>
