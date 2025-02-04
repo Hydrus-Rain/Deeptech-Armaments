@@ -39,7 +39,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DTC_Bullet_SniperRifle</defaultProjectile>
+        <defaultProjectile>Deeptech_SniperRifle_round</defaultProjectile>
         <warmupTime>3.5</warmupTime>
         <range>44.9</range>
         <soundCast>Shot_SniperRifle</soundCast>
