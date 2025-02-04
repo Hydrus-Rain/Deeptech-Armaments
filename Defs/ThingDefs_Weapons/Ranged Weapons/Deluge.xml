@@ -43,7 +43,9 @@
         <defaultProjectile>Deeptech_Siegecannon_Rounds</defaultProjectile>
         <warmupTime>5.5</warmupTime>
         <range>55</range>
-        <soundCast>Shot_SniperRifle</soundCast>
+        <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+				<burstShotCount>30</burstShotCount>
+        <soundCast>Shot_Autocannon</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
