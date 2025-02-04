@@ -41,7 +41,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Deeptech_Siegecannon_Rounds</defaultProjectile>
-        <warmupTime>10.5</warmupTime>
+        <warmupTime>5.5</warmupTime>
         <range>55</range>
         <soundCast>Shot_SniperRifle</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -79,7 +79,7 @@
       <damageDef>Bullet</damageDef>
       <damageAmountBase>75</damageAmountBase>
       <stoppingPower>5.5</stoppingPower>
-      <speed>100</speed>
+      <speed>30</speed>
     </projectile>
   </ThingDef>
 
