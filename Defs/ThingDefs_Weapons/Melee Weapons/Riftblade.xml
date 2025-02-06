@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<!--Sword-->
+	<!--Riftsword-->
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>Deeptech_Riftblade</defName>
 		<label>MK28 "Riftblade"</label>
@@ -21,13 +21,6 @@
 				<Crafting>8</Crafting>
 			</skillRequirements>
 		</recipeMaker>
-		<costList>
-			<Plasteel>130</Plasteel>
-			<Uranium>15</Uranium>
-			<Steel>200</Steel>
-			<ComponentIndustrial>7</ComponentIndustrial>
-			<ComponentSpacer>3</ComponentSpacer>
-		</costList>
 		<statBases>
 			<WorkToMake>9800</WorkToMake>
 			<Mass>0.9</Mass>
