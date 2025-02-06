@@ -10,21 +10,10 @@
 		</graphicData>
 		<uiIconScale>1.5</uiIconScale>
 		<techLevel>Ultra</techLevel>
-		<statBases>
-			<WorkToMake>6000</WorkToMake>
-			<Mass>1.25</Mass>
-		</statBases>
-		<equippedAngleOffset>-65</equippedAngleOffset>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
-        		<li>synthbench</li>
-			</recipeUsers>
-			<defaultIngredientFilter IsNull="True"/>
-			<unfinishedThingDef>DTC_UnfinishedWeaponNonStuff</unfinishedThingDef>
-			<soundWorking>Recipe_Machining</soundWorking>
 			<recipeUsers>
-				<li>FabricationBench</li>
-			</recipeUsers>
+        			<li>Synthesis_Bench</li>
+      			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
@@ -37,6 +26,11 @@
 			<ComponentIndustrial>7</ComponentIndustrial>
 			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>1.25</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<tools>
 			<li>
 				<label>fist</label>
