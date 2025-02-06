@@ -30,7 +30,7 @@
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
-      <WorkToBuild>2500</WorkToBuild>
+      <WorkToBuild>3000</WorkToBuild>
       <MaxHitPoints>380</MaxHitPoints>
       <Flammability>0</Flammability>
       <Cleanliness>0</Cleanliness>
@@ -38,7 +38,7 @@
     <size>(3,1)</size>
     <designationCategory>Production</designationCategory>
     <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
+    <pathCost>70</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
@@ -56,6 +56,9 @@
         </linkableFacilities>
       </li>
     </comps>
+	<building>
+	      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    	</building>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
