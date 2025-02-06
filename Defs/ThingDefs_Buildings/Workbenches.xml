@@ -2,8 +2,8 @@
 
 <Defs>
 <ThingDef ParentName="BenchBase">
- <defName>synthbench</defName>
-		<label>Synthesis_Bench</label>
+ <defName>Synthesis_Bench</defName>
+		<label>Synthesis Bench</label>
     <description>An Advanced workbench for creating technology.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
