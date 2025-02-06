@@ -45,21 +45,19 @@
 		</tools>
 		<costList>
 			<Plasteel>30</Plasteel>
-			<Uranium>1</Uranium>
-			<Steel>1</Steel>
+			<Uranium>15</Uranium>
+			<Steel>50</Steel>
 			<ComponentIndustrial>2</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
+			<recipeUsers>
     			<li>synthbench</li>
+			<li>FabricationBench</li>
      			</recipeUsers>
 			<defaultIngredientFilter IsNull="True"/>
 			<unfinishedThingDef>DTC_UnfinishedWeaponNonStuff</unfinishedThingDef>
 			<soundWorking>Recipe_Machining</soundWorking>
-			<recipeUsers Inherit="False">
-				<li>FabricationBench</li>
-			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>8</Crafting>
