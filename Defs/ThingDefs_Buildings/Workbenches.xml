@@ -59,9 +59,6 @@
         </linkableFacilities>
       </li>
     </comps>
-	<building>
-	      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-    	</building>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
