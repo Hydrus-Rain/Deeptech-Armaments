@@ -24,6 +24,7 @@
     <tab>DeeptechArmaments</tab>
     <techLevel>Industrial</techLevel>
     <description>Research Compact Gun designs and blueprints.</description>
+	  <discoveredLetterText>You've learned how to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
     <baseCost>3050</baseCost>
     <prerequisites>
       <li>PrecisionRifling</li>
@@ -32,9 +33,8 @@
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
     </requiredResearchFacilities>
-		<researchViewX>3</researchViewX>
-		<researchViewY>1</researchViewY>
-<discoveredLetterText>You've learned how to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
+    <researchViewX>3</researchViewX>
+    <researchViewY>1</researchViewY>
   </ResearchProjectDef>
   
 <ResearchProjectDef>
@@ -42,6 +42,7 @@
     <defName>Research_Microresearch</defName>
     <label>Microresearch</label>
     <description>Begin Research on the molecular structures of available materials, for allowing for stronger, yet lighter designs</description>
+	    <discoveredLetterText>You've learned how to craft stronger technology via microengineering\n Further research unlocked</discoveredLetterText>
     <baseCost>7500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
@@ -51,7 +52,6 @@
     <researchViewY>2</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <discoveredLetterTitle>Micromaterial Research</discoveredLetterTitle>
-    <discoveredLetterText>You've learned how to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
   </ResearchProjectDef>
   
 </Defs>
