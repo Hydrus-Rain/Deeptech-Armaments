@@ -13,7 +13,7 @@
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<recipeUsers>
-				<li>FabricationBench</li>
+				<li>Synthesis_Bench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
