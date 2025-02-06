@@ -23,7 +23,7 @@
 	<Steel>100</Steel>
 	<Plasteel>100</Plasteel>
 	<ComponentIndustrial>4</ComponentIndustrial>
-	<ComponentSpacer>2</ComponentSpacer>
+	<ComponentSpacer>1</ComponentSpacer>
     </costList>
     <costStuffCount>75</costStuffCount>
     <altitudeLayer>Building</altitudeLayer>
@@ -31,7 +31,7 @@
     <useHitPoints>True</useHitPoints>
     <statBases>
       <WorkToBuild>2500</WorkToBuild>
-      <MaxHitPoints>180</MaxHitPoints>
+      <MaxHitPoints>380</MaxHitPoints>
       <Flammability>0</Flammability>
       <Cleanliness>0</Cleanliness>
     </statBases>
