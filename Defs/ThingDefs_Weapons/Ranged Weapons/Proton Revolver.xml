@@ -12,6 +12,15 @@
 		</graphicData>
 		<uiIconScale>1.4</uiIconScale>
 		<soundInteract>Interact_Revolver</soundInteract>
+		<recipeMaker>
+			<recipeUsers>
+        			<li>Synthesis_Bench</li>
+      			</recipeUsers>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
 			<Mass>1.4</Mass>
@@ -27,15 +36,6 @@
 			<Steel>75</Steel>
 			<ComponentIndustrial>7</ComponentIndustrial>
 		</costList>
-		<recipeMaker>
-			<recipeUsers>
-				<li>synthbench</li>
-			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>8</Crafting>
-			</skillRequirements>
-		</recipeMaker>
 		<verbs>
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
