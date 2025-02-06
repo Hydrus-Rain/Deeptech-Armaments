@@ -14,8 +14,8 @@
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<recipeMaker>
 			<recipeUsers>
-				<li>synthbench</li>
-			</recipeUsers>
+ 			       <li>Synthesis_Bench</li>
+    			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>5</Crafting>
