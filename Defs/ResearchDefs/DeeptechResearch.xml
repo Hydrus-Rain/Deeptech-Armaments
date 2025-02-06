@@ -42,7 +42,7 @@
     <defName>Research_Microresearch</defName>
     <label>Microresearch</label>
     <description>Begin Research on the molecular structures of available materials, for allowing for stronger, yet lighter designs</description>
-    <baseCost7500</baseCost>
+    <baseCost>7500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
     <li>Microelectronics</li>
