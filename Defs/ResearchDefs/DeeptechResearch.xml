@@ -15,16 +15,15 @@
     <researchViewY>0</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <discoveredLetterTitle>NanoComponents</discoveredLetterTitle>
-    <discoveredLetterText>You've unlocked the ability to craft Nanocomponents\n\n Further research will yield better outcomes</discoveredLetterText>
-    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+    <discoveredLetterText>You've Learned how to craft Nanocomponents\n\n Further research will yield better outcomes</discoveredLetterText>
   </ResearchProjectDef>
 
   <ResearchProjectDef>
     <defName>CompactConstruction</defName>
     <label>Compact Weapon Construction</label>
     <tab>DeeptechArmaments</tab>
-    <techLevel>Spacer</techLevel>
-    <description>Allows you to build Yunhwa precision's weapons and armors.</description>
+    <techLevel>Industrial</techLevel>
+    <description>Research Compact Gun designs and blueprints.</description>
     <baseCost>3050</baseCost>
     <prerequisites>
       <li>PrecisionRifling</li>
@@ -35,6 +34,7 @@
     </requiredResearchFacilities>
 		<researchViewX>3</researchViewX>
 		<researchViewY>1</researchViewY>
+<discoveredLetterText>You've learned how to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
   </ResearchProjectDef>
   
 <ResearchProjectDef>
@@ -51,8 +51,7 @@
     <researchViewY>2</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <discoveredLetterTitle>Micromaterial Research</discoveredLetterTitle>
-    <discoveredLetterText>You've unlocked the ability to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
-    <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
+    <discoveredLetterText>You've learned how to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
   </ResearchProjectDef>
   
 </Defs>
