@@ -13,7 +13,7 @@
 		<uiIconScale>2.0</uiIconScale>
 		<soundInteract>Interact_SMG</soundInteract>
 		<recipeMaker>
-			<recipeUsers Inherit="False">
+			<recipeUsers>
 			<li>synthbench</li>
 			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
