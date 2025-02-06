@@ -14,7 +14,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
       <recipeUsers>
-        <li>synthbench</li>
+        <li>Synthesis_Bench</li>
       </recipeUsers>
       <researchPrerequisite>Fabrication</researchPrerequisite>
       <skillRequirements>
