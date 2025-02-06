@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  
   <ResearchProjectDef>
-    <tab>Deeptech</tab>
+    <tab>DeeptechArmaments</tab>
     <defName>Research_NanoFabrication</defName>
     <label>Nanocomponent Fabrication</label>
     <description>Begin Research on making smaller components, allowing for more compact and efficent technological designs</description>
     <baseCost>5000</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <prerequisites>
     <li>Microelectronics</li>
     </prerequisites>
@@ -18,17 +19,35 @@
     <discoveredLetterMinDifficulty>1</discoveredLetterMinDifficulty>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>CompactConstruction</defName>
+    <label>Compact Weapon Construction</label>
+    <tab>DeeptechArmaments</tab>
+    <techLevel>Spacer</techLevel>
+    <description>Allows you to build Yunhwa precision's weapons and armors.</description>
+    <baseCost>3050</baseCost>
+    <prerequisites>
+      <li>PrecisionRifling</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  
 <ResearchProjectDef>
-    <tab>Deeptech</tab>
+    <tab>DeeptechArmaments</tab>
     <defName>Research_Microresearch</defName>
     <label>Microresearch</label>
     <description>Begin Research on the molecular structures of available materials, for allowing for stronger, yet lighter designs</description>
     <baseCost7500</baseCost>
-    <techLevel>Industrial</techLevel>
+    <techLevel>Spacer</techLevel>
     <prerequisites>
     <li>Microelectronics</li>
     </prerequisites>
-    <researchViewX>0</researchViewX>
+    <researchViewX>2</researchViewX>
     <researchViewY>2</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <discoveredLetterTitle>Micromaterial Research</discoveredLetterTitle>
