@@ -12,6 +12,22 @@
 		</graphicData>
 		<uiIconScale>2.0</uiIconScale>
 		<techLevel>Ultra</techLevel>
+		<recipeMaker>
+			<recipeUsers>
+        			<li>Synthesis_Bench</li>
+      			</recipeUsers>
+			<researchPrerequisite>Fabrication</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Plasteel>130</Plasteel>
+			<Uranium>15</Uranium>
+			<Steel>200</Steel>
+			<ComponentIndustrial>7</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
+		</costList>
 		<statBases>
 			<WorkToMake>9800</WorkToMake>
 			<Mass>0.9</Mass>
@@ -44,26 +60,11 @@
 			</li>
 		</tools>
 		<costList>
-			<Plasteel>30</Plasteel>
-			<Uranium>1</Uranium>
-			<Steel>1</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Plasteel>50</Plasteel>
+			<Uranium>10</Uranium>
+			<Steel>145</Steel>
+			<ComponentIndustrial>5</ComponentIndustrial>
 			<ComponentSpacer>1</ComponentSpacer>
 		</costList>
-		<recipeMaker>
-			<recipeUsers Inherit="False">
-        		<li>synthbench</li>
-      			</recipeUsers>
-			<defaultIngredientFilter IsNull="True"/>
-			<unfinishedThingDef>DTC_UnfinishedWeaponNonStuff</unfinishedThingDef>
-			<soundWorking>Recipe_Machining</soundWorking>
-			<recipeUsers Inherit="False">
-				<li>FabricationBench</li>
-			</recipeUsers>
-			<researchPrerequisite>Fabrication</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>8</Crafting>
-			</skillRequirements>
-		</recipeMaker>
 	</ThingDef>
 </Defs>
