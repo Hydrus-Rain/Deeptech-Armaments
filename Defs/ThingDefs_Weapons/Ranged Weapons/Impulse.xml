@@ -12,6 +12,9 @@
 		</graphicData>
 		<soundInteract>Interact_SMG</soundInteract>
 		<recipeMaker>
+			<recipeUsers>
+        			<li>Synthesis_Bench</li>
+      			</recipeUsers>
 			<researchPrerequisite>Fabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
