@@ -3,14 +3,14 @@
 <Defs>
 <ThingDef ParentName="BenchBase">
  <defName>Synthesis_Bench</defName>
-		<label>Synthesis Bench</label>
+    <label>Synthesis Bench</label>
     <description>An Advanced workbench for creating technology.</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Synthbench/Synthbench</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-	<drawSize>(3.5,1.5)</drawSize>
+	<drawSize>(2.5,1.5)</drawSize>
       <shadowData>
         <volume>(2.9, 0.3, 0.5)</volume>
         <offset>(0, 0, 0)</offset>
