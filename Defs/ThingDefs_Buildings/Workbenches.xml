@@ -28,7 +28,6 @@
 	<ComponentIndustrial>4</ComponentIndustrial>
 	<ComponentSpacer>1</ComponentSpacer>
     </costList>
-    <costStuffCount>75</costStuffCount>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
