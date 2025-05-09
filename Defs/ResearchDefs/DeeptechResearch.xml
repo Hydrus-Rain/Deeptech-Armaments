@@ -8,9 +8,9 @@
     <description>Begin Research on making smaller components, allowing for more compact and efficent technological designs</description>
     <baseCost>5000</baseCost>
     <techLevel>Spacer</techLevel>
-    <prerequisites>
+    <researchPrerequisites>
     <li>fabrication</li>
-    </prerequisites>
+    </researchPrerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
@@ -26,9 +26,9 @@
     <description>Research Compact Gun designs and blueprints.</description>
 	  <discoveredLetterText>You've learned how to craft stronger technology via microengineering \n\n Further research unlocked</discoveredLetterText>
     <baseCost>3050</baseCost>
-    <prerequisites>
+    <researchPrerequisites>
       <li>PrecisionRifling</li>
-    </prerequisites>
+    </researchPrerequisites>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
     <requiredResearchFacilities>
       <li>MultiAnalyzer</li>
@@ -45,9 +45,9 @@
 	    <discoveredLetterText>You've learned how to craft stronger technology via microengineering\n Further research unlocked</discoveredLetterText>
     <baseCost>7500</baseCost>
     <techLevel>Spacer</techLevel>
-    <prerequisites>
-    <li>Microelectronics</li>
-    </prerequisites>
+    <researchPrerequisites>
+    <li>MultiAnalyzer</li>
+    </researchPrerequisites>
     <researchViewX>2</researchViewX>
     <researchViewY>2</researchViewY>
     <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
