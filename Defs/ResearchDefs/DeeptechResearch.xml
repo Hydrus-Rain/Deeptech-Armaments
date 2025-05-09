@@ -9,7 +9,7 @@
     <baseCost>5000</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-    <li>microelectronics</li>
+    <li>fabrication</li>
     </prerequisites>
     <researchViewX>0</researchViewX>
     <researchViewY>0</researchViewY>
