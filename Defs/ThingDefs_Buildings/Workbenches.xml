@@ -8,8 +8,8 @@
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
       <texPath>Things/Buildings/Synthbench</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>Transparent</shaderType>
 	<drawSize>(2.5,1.5)</drawSize>
       <shadowData>
         <volume>(2.9, 0.3, 0.5)</volume>
