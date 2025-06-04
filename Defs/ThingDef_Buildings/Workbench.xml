@@ -7,7 +7,7 @@
     <description>A workstation for basic synthesis</description>
     <thingClass>Building_WorkTable</thingClass>
     <graphicData>
-      <texPath>Things/Building/Synthbench</texPath>
+      <texPath>Things/Building/Synthbench/Synthbench</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(3.5,1.5)</drawSize>
       <damageData>
