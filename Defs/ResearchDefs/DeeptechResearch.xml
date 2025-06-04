@@ -3,7 +3,7 @@
   
   <ResearchProjectDef>
     <tab>DeeptechArmaments</tab>
-    <defName>Research_NanoFabrication</defName>
+    <defName>NanoFabrication</defName>
     <label>Nanocomponent Fabrication</label>
     <description>Begin Research on making smaller components, allowing for more compact and efficent technological designs</description>
     <baseCost>5000</baseCost>
@@ -39,8 +39,8 @@
   
 <ResearchProjectDef>
     <tab>DeeptechArmaments</tab>
-    <defName>Research_Microresearch</defName>
-    <label>Microresearch</label>
+    <defName>Microresearch</defName>
+    <label>Microform Research</label>
     <description>Begin Research on the molecular structures of available materials, for allowing for stronger, yet lighter designs</description>
 	    <discoveredLetterText>You've learned how to craft stronger technology via microengineering\n Further research unlocked</discoveredLetterText>
     <baseCost>7500</baseCost>
