@@ -1,101 +1,79 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>
-  <WorkGiverDef>
-    <defName>Deeptech_Operate</defName>
-    <label>Operate Machine</label>
-    <giverClass>WorkGiver_DoBill</giverClass>
-    <workType>Crafting</workType>
-    <priorityInType>140</priorityInType>
-    <fixedBillGiverDefs>
-	<li>DTA_SynthBench</li>
-    </fixedBillGiverDefs>
-    <verb>Operate</verb>
-    <gerund>Operating at</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-    <prioritizeSustains>true</prioritizeSustains>
-  </WorkGiverDef>
 
-##=========================================================================================================================================##
-	
-	<ThingDef ParentName="BenchBase" Name="DTA_BenchBase" Abstract="True">
-		<thingClass>Building_WorkTable</thingClass>
-		<castEdgeShadows>true</castEdgeShadows>
-		<staticSunShadowHeight>0.20</staticSunShadowHeight>
-		<altitudeLayer>BuildingBelowTop</altitudeLayer>
-		<fillPercent>0.8</fillPercent>
-		<useHitPoints>True</useHitPoints>
-		<designationCategory>Deeptech Arms</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>80</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<surfaceType>Item</surfaceType>
-	  <inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-		<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-			<paintable>false</paintable>
-		</building>
-		<constructEffect>ConstructMetal</constructEffect>
-		<comps>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_AffectedByFacilities">
-				<linkableFacilities>
-					<li>ToolCabinet</li>
-				</linkableFacilities>
-			</li>
-		</comps>
+  <ThingDef ParentName="BenchBase">
+    <defName>DTA_SynthBench</defName>
+    <label>Synthesis Bench</label>
+    <description>A simplistic work station for assembling machinery.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Synthbench</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <designationCategory>Production</designationCategory>
+    <uiOrder>2520</uiOrder>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <recipes>
+      <li>ButcherCorpseMechanoid</li>
+    </recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(73,123,138,0)</glowColor>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>Machining</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc7</designationHotKey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
-	</ThingDef>
-
-##=========================================================================================================================================##
-	
-  <ThingDef ParentName="DTA_BenchBase">
-    <defName>DTA_SynthBench</defName>
-    <label>Synthesis Workbench</label>
-    <description>A Simple All rounded Workbench</description>
-    <graphicData>
-      <texPath>Things/Buildings/Synthbench</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(5.1,3.1)</drawSize>
-	  <drawOffsetSouth>(0,0,0.12)</drawOffsetSouth>
-	  <drawOffsetNorth>(0,0,0.12)</drawOffsetNorth>
-	  <drawOffsetEast>(-0.02,0,-0.08)</drawOffsetEast>
-	  <drawOffsetWest>(0,0,-0.08)</drawOffsetWest>
-    </graphicData>
-    <designationCategory>DeeptechArms</designationCategory>
-    <costList>
-      <Steel>250</Steel>
-      <ComponentIndustrial>8</ComponentIndustrial>
-	    <ComponentSpacer>2</ComponentSpacer>
-    </costList>
-    <statBases>
-      <WorkToBuild>11451</WorkToBuild>
-      <MaxHitPoints>2500</MaxHitPoints>
-      <Flammability>0.25</Flammability>
-      <WorkTableWorkSpeedFactor>1.05</WorkTableWorkSpeedFactor>
-    </statBases>
-	  <recipes>
-	  </recipes>
-    <size>(3,2)</size>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-	<tickerType>Normal</tickerType>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <shortCircuitInRain>false</shortCircuitInRain>
-        <basePowerConsumption>800</basePowerConsumption>
-      </li>
-    </comps>
-	<researchPrerequisites>
-      <li>Machining</li>
-    </researchPrerequisites>
   </ThingDef>
-	
